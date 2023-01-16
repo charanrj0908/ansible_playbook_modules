@@ -1,0 +1,7 @@
+-
+ hosts : nodes
+ tasks:
+   - name : using prompt module
+     pause:
+       prompt: check whether webserver is running, press enter to continue
+

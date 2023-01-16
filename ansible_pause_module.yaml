@@ -1,0 +1,6 @@
+-
+  hosts: nodes
+  tasks:
+    - name : pause playbook for few seconds
+      pause:
+        seconds : 5

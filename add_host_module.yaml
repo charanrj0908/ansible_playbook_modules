@@ -1,0 +1,18 @@
+-
+  hosts: node1
+  tasks:
+    - name: adding node2 to adhoc_group
+      add_host:
+        
+        name : node2
+        groups: adhoc_group1
+
+- 
+ hosts: adhoc_group1
+ tasks:
+   - name: ping all in group
+     ping:
+
+  
+
+              
